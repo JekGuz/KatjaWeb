@@ -1,23 +1,43 @@
-img{
+img#pilt1{
     border: 5px solid mediumvioletred;
     border-radius: 60px;
     width: 20%;
     padding: 1%;
 }
+img#pilt2{
+    border: 5px solid mediumvioletred;
+    border-radius: 60px;
+    padding: 1%;
+}
 h1{
     font-family:Georgia, Times, serif;
     letter-spacing: 2px;
-    front-variant: small-caps;
+    font-variant: small-caps;
     color: darkblue;
     text-align: center;
+}
+h2{
+    font-family:Georgia, Times, serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    color: darkmagenta;
+    text-align: center;
+}
+h2{
+    font-family:Georgia, Times, serif;
+    letter-spacing: 2px;
+    color: darkmagenta;
 }
 body{
     font-family:Georgia, Times, serif;
     background-color: lavender;
 }
+p{
+    font-family:Georgia, Times, serif;
+}
 ul{
     list-style-type: square;
     margin-left: 5%;
-    border: 5px dotted mediumvioletred;
+    border: 3px dotted mediumvioletred;
     width: 30%;
 }

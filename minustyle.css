@@ -37,9 +37,13 @@ body{
 p{
     font-family:Georgia, Times, serif;
 }
-ul{
+ul#list1{
     list-style-type: square;
     margin-left: 5%;
     border: 3px dotted mediumvioletred;
     width: 30%;
+}
+ul#list2{
+    list-style-type: square;
+    margin-left: 2%;
 }

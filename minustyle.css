@@ -136,11 +136,12 @@ th, td{
     border: 1px dotted darkmagenta;
 }
 .nav{
+    font-family:Georgia, Times, serif;
     list-style: none; /* Убираем маркеры списка */
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: #8ac8ef;
+    background-color: rgba(148, 88, 179, 0.56);
 }
 .nav a{
     text-decoration: none;
@@ -154,4 +155,18 @@ th, td{
     top: 0;
     right: 1%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Лёгкая тень для визуального эффекта */
+}
+.ules{
+    font-family:Georgia, Times, serif;
+    text-decoration: none;
+    color: #0b3091;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 5%;
+}
+footer{
+    font-family:Georgia, Times, serif;
+    text-align: center;
+    font-style: italic;
+    color: #0b3091;
 }

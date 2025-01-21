@@ -6,61 +6,156 @@
     <!-- css failifa ühendus -->
     <link rel="stylesheet" href="minustyle.css">
 </head>
+<header class="fixed-header">
+    <ul class="nav">
+        <li><a href="#"></a>
+
+        </li>
+        <li><a href="#klassis">Ma õpin Noorem Tarkvaraarendaja erial</a></li>
+        <li><a href="#issue1">MVP mõiste</a></li>
+        <li><a href="#issue2">Remote repository</a></li>
+    </ul>
+</header>
+
 <body>
-<h1>Jekaterina Git koduleht</h1>
-<img src="1.jpg" id="pilt1" alt="minu pilt">
+    <div id="klassis">
+    <h1>Jekaterina Git koduleht</h1>
+    <img src="1.jpg" id="pilt1" alt="minu pilt">
 <!-- pilt -->
-<h3>Ma õpin Noorem Tarkvaraarendaja eriala</h3>
-<strong>Õpitud aine on:</strong>
-<ul id="list1">
-    <li>Projekti loomine</li>
-    <li>Kontoritöö tarvara</li>
-    <li>Arvuti- ja taristu osa</li>
-    <li>Multimeedia</li>
-</ul>
+    <h3>Ma õpin Noorem Tarkvaraarendaja eriala</h3>
+    <strong>Õpitud aine on:</strong>
+    <ul id="list1">
+        <li>Projekti loomine</li>
+        <li>Kontoritöö tarvara</li>
+        <li>Arvuti- ja taristu osa</li>
+        <li>Multimeedia</li>
+    </ul>
 <!-- Link e-portfooliosse-->
-<a href="https://jekaterinaguzek24.thkit.ee/wp" target="_blank">
+    <a href="https://jekaterinaguzek24.thkit.ee/wp" target="_blank">
     WP portfoolio</a>
-<br>
-<br>
+    </div>
+    <br>
 <!-- Siis alustame teha esimene issue1 -->
-<div id="issue1">
+    <div id="issue1">
     <h2>MVP mõiste</h2>
     <!-- <p> - lõik -->
-    <p> MVP (Minimum Viable Product) ehk minimaalselt elujõuline toode sisaldab ainult kõige olulisemaid funktsioone, <br>
+    <p> <b>MVP (Minimum Viable Product)</b> ehk minimaalselt elujõuline toode sisaldab ainult kõige olulisemaid funktsioone,
         mis võimaldavad testida hüpoteesi ja saada kasutajatelt tagasisidet, kasutades minimaalselt ressursse.
     </p>
-    <img src="2.jpg" height="427" width="820" id="pilt2" alt="minu pilt">
+    <br>
+    <br>
+    <p id="loik1">
     <h3>Peamised punktid MVP kohta:</h3>
-        <ol>Miks on MVP vajalik:</ol>
+    <img src="2.jpg" id="pilt2" alt="minu pilt">
+        <ol><b>Miks on MVP vajalik:</b></ol>
             <ul id="list2">
                 <li>Kontrollida toote nõudlust varases etapis</li>
                 <li>Minimeerida riske ja kulusid uue projekti käivitamisel</li>
                 <li>Koguda kiiresti sihtrühma tagasisidet</li>
             </ul>
-        <ol>MVP testimise iseärasused:</ol>
-            <ul id="list2">
+        <ol><b>MVP testimise iseärasused:</b></ol>
+            <ul id="list3">
                 <li>Keskendumine põhilistele funktsioonidele, mis on kasutajatele kõige olulisemad</li>
                 <li>Kitsaskohtade ja vigade tuvastamine varajases staadiumis</li>
                 <li>Töö piiratud nõuete ja ressurssidega</li>
             </ul>
-        <ol>Testija roll MVP arenduses:</ol>
-            <ul id="list2">
+        <ol><b>Testija roll MVP arenduses:</b></ol>
+            <ul id="list4">
                 <li>Põhifunktsioonidele keskenduvate testijuhiste väljatöötamine</li>
                 <li>Kasutajate tagasiside kogumine ja analüüs</li>
                 <li>Toote kohandamine saadud andmete põhjal</li>
             </ul>
-        <ol>MVP lähenemise eelised:</ol>
-            <ul id="list2">
+        <ol><b>MVP lähenemise eelised:</b></ol>
+            <ul id="list5">
                 <li>Aja ja ressursside kokkuhoid</li>
                 <li>Võimalus parandada toodet reaalsete andmete põhjal</li>
                 <li>Uute funktsioonide järkjärguline lisamine pärast hüpoteeside kinnitamist</li>
             </ul>
+    </p>
+    </div>
+    <div id="issue2">
     <!-- Siis alustame teha esimene issue2 -->
-
-
-</div>
-
-
+    <h2>Remote repository</h2>
+    <h3>Mis on Remote repo</h3>
+    <p>
+        <b>Reposiit (ehk repo)</b> on tsentraliseeritud kaust, mis on mõeldud koodi hoidmiseks. Kui teil on Git-reposiit failide ja kaustadega, saate hakata jälgima muudatusi ja versioone.
+    </p>
+    <br>
+    <p>
+    <img src="3.png" id="pilt3" alt="minu pilt"/>
+    <!-- Siis planin teha table -->
+    <table>
+        <thead> <!-- Nimetus-->
+        <tr>
+            <th>Käsk</th>
+            <th>Kirjeldus</th>
+        </tr>
+        </thead>
+        <tr>
+            <td><i>git clone URL</i></td>
+            <td>Kloonib remote hoidla sinu arvutisse</td>
+        </tr>
+        <tr>
+            <td><i>git pull</i></td>
+            <td>Laeb remote hoidlast viimased muudatused alla</td>
+        </tr>
+        <tr>
+            <td><i>git push</i></td>
+            <td>Saadab lokaalsed muudatused remote repole</td>
+        </tr>
+        <tr>
+            <td><i>git remote -v</i></td>
+            <td>Kuvab lisatud remote hoidlad ja nende URL-id</td>
+        </tr>
+        <tr>
+            <td><i>git add .</i></td>
+            <td>Lisab kõik failid praeguses kaustas ja alamkaustades Git-i indeksisse järgnevaks commit'iks</td>
+        </tr>
+        <tr>
+            <td><i>git commit -a -m "Sõnum"</i></td>
+            <td>Lisab automaatselt kõik muudetud ja jälgitavad failid indeksisse ning salvestab muudatused</td>
+        </tr>
+        <tr>
+            <td><i>git branch nimi</i></td>
+            <td>Loob uue nimega haru</td>
+        </tr>
+        <tr>
+            <td><i>git checkout nimi</i></td>
+            <td>Lülitub olemasolevale nimega harule</td>
+        </tr>
+    </table>
+<br>
+    <h3>Esimene võimalus GitHubis remote repo loomine:</h3>
+    <ol type="1">
+        <li>Logi sisse oma GitHubi kontole</li>
+        <li>Klõpsa üleval paremas nurgas asuval "+" ikoonil ja vali "New repository"</li>
+        <li>Täida vajalikud väljad (Repository name/kirjeldus)</li>
+        <li>Vajadusel vali lisaseaded (näiteks README</li>
+        <li>Vajuta Create repository</li>
+    </ol>
+    <br>
+    <h3>Teine võimalus remote repo ühendamine lokaalse hoidla või uue projektiga:</h3>
+    <ol type="1">
+        <li>Ava terminal (gitCMD) ja mine oma projekti kausta:</li>
+            <p id="kood">
+                cd /tee/sinu/projektikaust</p>
+        <li>Initsialiseeri lokaalne Git repository: Kui projektil pole veel Git hoidlat:</li>
+            <p id="kood1">
+                git init</p>
+        <li>Lisa failid Git-i jälgimisse:</li>
+            <p id="kood2">
+                git add .</p>
+        <li>Tee esimene commit:</li>
+            <p id="kood3">
+                git commit -a -m "Esimene commit"</p>
+        <li>Lisa remote repository link</li>
+            <p id="kood4">
+                git remote add origin https://github.com/kasutajanimi/my-project.git</p>
+        <li>Pushi oma muudatused</li>
+            <p id="kood5">
+                git push kasutajanimi/my-project.git</p>
+    </ol>
+    </div>
 </body>
+
 </html>
